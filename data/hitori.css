@@ -1,18 +1,18 @@
 /* Cell background color */
 
-@define-color unpainted-bg-color #ededed;
-@define-color painted-bg-color #f4f4f4;	/* Adwaita's insensitive-bg-color */
+@define-color unpainted-bg-color #111216;
+@define-color painted-bg-color #2F3033;	/* Adwaita's insensitive-bg-color */
 
 /* Cell border color */
 
 @define-color unpainted-border-color #2e3436; /* Nearly black */
-@define-color painted-border-color #babcb8;
+@define-color painted-border-color #9fa19e;
 @define-color hint-border-color red;
 
 /* Colors of numbers within cells */
 
-@define-color unpainted-number-color @unpainted-border-color;
-@define-color painted-number-color #a7aba7; /* Dark gray */
+@define-color unpainted-number-color #a7aba7;
+@define-color painted-number-color #2e3436; /* Dark gray */
 @define-color mistaken-number-color #ef2929; /* Tango's lightest "scarlet red" */
 
 /* Shift-click a cell for tag1, ctrl-click for tag2 */
